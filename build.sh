@@ -9,5 +9,5 @@ top_level_dir="$(dirname $0)"
 pushd "${top_level_dir}/cpp/"
 mkdir -p build
 cd build
-mex ../src/helloWorldMex.cpp
+mex ../src/hello_world_mex.cpp
 popd
